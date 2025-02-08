@@ -1,6 +1,9 @@
 # Swift 버전 설정
 --swiftversion 6.0
 
+# 제외 경로
+--exclude Pods, Tuist.swift, Project.swift
+
 # 포맷 옵션
 --indent 2                         # 들여쓰기 2칸
 --selfrequired                     # self가 필요한 경우(예: 클로저 내 캡처)만 자동으로 추가
